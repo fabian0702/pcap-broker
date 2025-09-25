@@ -1,4 +1,4 @@
-FROM golang:1.24-alpine⁠
+FROM golang:1.24-alpine
 
 RUN apk add --no-cache make build-base libpcap-dev openssh-client tcpdump
 
